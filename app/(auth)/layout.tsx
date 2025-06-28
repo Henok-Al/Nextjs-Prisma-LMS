@@ -31,7 +31,10 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
         <div className="text-balance text-center text-xs text-muted-foreground">
           By clicking continue, you agree to our{" "}
           <span className="hover:text-primary hover:underline">
-            Terms of Service and <span className="hover:text-primary hover:underline">Privacy Policy</span>
+            Terms of Service and{" "}
+            <span className="hover:text-primary hover:underline">
+              Privacy Policy
+            </span>
           </span>
         </div>
       </div>
